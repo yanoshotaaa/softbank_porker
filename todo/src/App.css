@@ -1,0 +1,179 @@
+.App {
+  max-width: 600px;
+  margin: 56px auto;
+  padding: 40px 36px 32px 36px;
+  background: #fafbfc;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(30,40,90,0.07);
+  font-family: 'Segoe UI', 'Hiragino Sans', 'Meiryo', sans-serif;
+  border: 1px solid #e5e8eb;
+}
+h1 {
+  font-size: 2.1rem;
+  margin-bottom: 2.2rem;
+  color: #0d234a;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
+input[type="text"], input[type="date"] {
+  flex: 1;
+  padding: 12px;
+  border: 1.2px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 1.08rem;
+  background: #fff;
+  transition: border 0.2s;
+  color: #222;
+}
+input[type="text"]:focus, input[type="date"]:focus {
+  border: 1.2px solid #0d234a;
+  outline: none;
+}
+button {
+  padding: 10px 20px;
+  background: #0d234a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.2s;
+  box-shadow: none;
+  letter-spacing: 0.01em;
+}
+button:hover {
+  background: #06142a;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  text-align: left;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 18px 18px 14px 18px;
+  box-shadow: 0 1px 4px rgba(30,40,90,0.04);
+  position: relative;
+  border: 1px solid #e5e8eb;
+}
+li ul {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 48px;
+  background: none;
+  box-shadow: none;
+  padding-left: 0;
+}
+li ul li {
+  background: none;
+  box-shadow: none;
+  border-left: none;
+  padding-left: 0;
+  margin-bottom: 14px;
+  border: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+li input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  accent-color: #0d234a;
+  margin-top: 2px;
+}
+li span {
+  font-size: 1.08rem;
+  color: #1a2330;
+  word-break: break-word;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  max-width: 100%;
+  font-weight: 500;
+}
+li.checked span {
+  color: #b0b8c1;
+  text-decoration: line-through;
+}
+.todo-date {
+  color: #444;
+  font-size: 0.97rem;
+  margin-left: 32px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  min-width: 90px;
+  text-align: right;
+  margin-right: 10px;
+}
+.task-main {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  gap: 18px;
+}
+.task-main button {
+  margin-left: 0;
+  background: none;
+  color: #e53935;
+  border: none;
+  font-size: 1.2rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.15s;
+  box-shadow: none;
+}
+.task-main button:hover {
+  background: #fbe9e7;
+  color: #b71c1c;
+}
+div[style*="margin: 10px 0"] button {
+  background: #f5f7fa;
+  color: #0d234a;
+  border: 1px solid #e5e8eb;
+  margin-right: 6px;
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  box-shadow: none;
+}
+div[style*="margin: 10px 0"] button:hover {
+  background: #e3eaf3;
+  color: #06142a;
+}
+.progress-bar-wrap {
+  margin-bottom: 28px;
+  padding: 0 2px 8px 2px;
+}
+.progress-label {
+  font-size: 1.02rem;
+  color: #0d234a;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.progress-bar-bg {
+  width: 100%;
+  height: 14px;
+  background: #e5e8eb;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(30,40,90,0.04);
+}
+.progress-bar-fg {
+  height: 100%;
+  background: linear-gradient(90deg, #0d234a 60%, #1976d2 100%);
+  border-radius: 7px 0 0 7px;
+  transition: width 0.1s;
+}
