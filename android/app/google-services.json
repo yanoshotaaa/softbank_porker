@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "377509457953",
+    "project_id": "porkerapp-445c0",
+    "storage_bucket": "porkerapp-445c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377509457953:android:ca817124f9c49f2374f360",
+        "android_client_info": {
+          "package_name": "com.example.porker_log_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANyu5fEtXs4ak0hHvpvjQv64S0mquek9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377509457953:android:28ecb88c15a9db5c74f360",
+        "android_client_info": {
+          "package_name": "com.example.softbank_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANyu5fEtXs4ak0hHvpvjQv64S0mquek9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377509457953:android:00452745b7d8643674f360",
+        "android_client_info": {
+          "package_name": "com.example.softbank_main"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANyu5fEtXs4ak0hHvpvjQv64S0mquek9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
